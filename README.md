@@ -4,6 +4,8 @@ An AI-powered recruitment system that evaluates resumes against Job Descriptions
 
 **Built for the Internship Take-Home Assignment — Option A: Evaluation & Scoring Engine (Depth over Breadth)**
 
+### 🌐 [Live Demo →](https://ai-resume-shortlisting-engine-whyjjn9kdrymqcnrp9zwkw.streamlit.app/)
+
 ---
 
 ## 🏗️ Architecture Overview
@@ -84,8 +86,8 @@ resume-shortlisting-app/
 ### 1. Clone & Install
 
 ```bash
-git clone <repo-url>
-cd resume-shortlisting-app
+git clone https://github.com/mridulnehra/ai-resume-shortlisting-engine.git
+cd ai-resume-shortlisting-engine
 
 python3 -m venv venv
 source venv/bin/activate
@@ -164,6 +166,3 @@ Returns `{"status": "healthy"}` - used for monitoring and load balancer health c
 - **Rate Limiting**: Built-in retry logic with exponential backoff handles Gemini API rate limits.
 - **Horizontal Scaling**: Stateless FastAPI instances can be scaled behind a load balancer.
 
-## 📝 Author
-
-Mridul Nehra — Data Science Student
